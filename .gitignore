@@ -1,0 +1,14 @@
+.DS_STORE
+*.log
+npm-debug.log
+npm-debug.log.*
+eslint.log
+eslint.log.*
+
+logs
+node_modules
+dist
+coverage
+
+.idea/
+.vscode
