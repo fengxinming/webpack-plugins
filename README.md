@@ -9,8 +9,8 @@
 ## How to get codes from remote GIT repository
 
 ```bash
-$ git@gitlab.ziztour.loc:tmc/h5-travel-plus.git
-$ cd h5-travel-plus
+$ git@github.com:fengxinming/extract-chunks-webpack-plugin.git
+$ cd extract-chunks-webpack-plugin
 $ cnpm install
 ```
 
