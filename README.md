@@ -22,7 +22,6 @@ plugins: [
   new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
   new ExtractChunks({
     filename: path.join(process.cwd(), 'tmp', 'chunks.json')
-  }),
-  new webpack.LoaderOptionsPlugin(_.loadersOptions())
+  })
 ],
 ```
