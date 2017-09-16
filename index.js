@@ -34,7 +34,7 @@ class Plugin {
       if (!fs.existsSync(filedir)) {
         fs.mkdirSync(filedir);
       }
-      fs.writeFileSync(filename, JSON.stringify(assets));
+      fs.writeFileSync(filename, JSON.stringify(assets, null, 2));
       console.log(`It has created a file ${chalk.yellow(filename)}\n`);
       callback();
     });
