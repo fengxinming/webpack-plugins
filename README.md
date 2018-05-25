@@ -1,6 +1,6 @@
 # extract-chunks-webpack-plugin
 
-> Note: that `extract-chunks-webpack-plugin` supports being visited on WeChat
+> Note: that `extract-chunks-webpack-plugin` supports webpack3-
 
 <br/>
 
