@@ -1,0 +1,22 @@
+{
+  "publicPath": "/",
+  "chunks": {
+    "test.jquery": {
+      "size": 271824,
+      "entry": "/test.jquery.js",
+      "hash": "934049406f2a96f9b595",
+      "css": []
+    },
+    "test.vue": {
+      "size": 232401,
+      "entry": "/test.vue.js",
+      "hash": "3e25109fb15d19cc71db",
+      "css": []
+    }
+  },
+  "js": [
+    "/test.jquery.js",
+    "/test.vue.js"
+  ],
+  "css": []
+}
