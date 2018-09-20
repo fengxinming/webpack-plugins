@@ -1,6 +1,6 @@
 {
   "name": "extract-chunks-webpack-plugin",
-  "version": "2.0.2",
+  "version": "4.0.0",
   "description": "extract chunks as webpack plugin 提取编译后的chunk分支",
   "main": "index.js",
   "scripts": {

@@ -61,7 +61,7 @@ class Plugin {
         name: 'ExtractChunksWebpackPlugin'
       };
       compiler.hooks.emit.tapAsync(plugin, emitFn);
-      compiler.hooks.done.tapAsync(plugin, doneFn);
+      compiler.hooks.done.tap(plugin, doneFn);
     } else {
       compiler.plugin('emit', emitFn);
       compiler.plugin('done', doneFn);
