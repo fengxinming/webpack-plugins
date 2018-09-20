@@ -2,7 +2,7 @@
 const path = require('path');
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const ExtractChunksWebpackPlugin = require('../index');
+const ExtractChunksWebpackPlugin = require('../..');
 
 const resolve = dir => path.join(__dirname, dir);
 
@@ -37,5 +37,10 @@ module.exports = {
     new FriendlyErrorsPlugin(),
     new ExtractChunksWebpackPlugin()
   ],
-  mode: 'development'
+  performance: {
+    hints: process.env.NODE_ENV === 'production' ? 'warning' : false,
+    assetFilter(assetFilename) {
+      return assetFilename.endsWith('.js');
+    }
+  }
 };
