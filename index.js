@@ -201,13 +201,6 @@ class Plugin {
     return assets;
   }
 
-  appendHash(url, hash) {
-    if (!url) {
-      return url;
-    }
-    return url + (url.indexOf('?') === -1 ? '?' : '&') + hash;
-  }
-
 }
 
 module.exports = Plugin;
