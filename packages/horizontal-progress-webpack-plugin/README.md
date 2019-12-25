@@ -1,0 +1,1 @@
+# horizontal-progress-webpack-plugin

@@ -34,12 +34,6 @@
     "yoda": 0,
     "arrow-spacing": 2,
     "dot-location": [2, "property"],
-    "prefer-arrow-callback": 2,
-    "operator-linebreak": [2, "after", {
-      "overrides": {
-        "?": "ignore",
-        ":": "ignore"
-      }
-    }]
+    "prefer-arrow-callback": 0
   }
 }

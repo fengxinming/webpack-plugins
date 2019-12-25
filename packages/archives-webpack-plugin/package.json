@@ -1,0 +1,30 @@
+{
+  "name": "archives-webpack-plugin",
+  "version": "1.0.0",
+  "description": "代码被编译压缩后归档",
+  "keywords": [
+    "archive",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Jesse Feng <fxm0016@126.com>",
+  "homepage": "https://github.com/fengxinming/extract-chunks-webpack-plugin#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/extract-chunks-webpack-plugin.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/fengxinming/extract-chunks-webpack-plugin/issues"
+  }
+}

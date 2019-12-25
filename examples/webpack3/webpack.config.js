@@ -1,8 +1,7 @@
 'use strict';
 const path = require('path');
-const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const ExtractChunksWebpackPlugin = require('../..');
+const ExtractChunksWebpackPlugin = require('../../packages/extract-chunks-webpack-plugin');
 
 const resolve = dir => path.join(__dirname, dir);
 
@@ -34,7 +33,6 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new FriendlyErrorsPlugin(),
     new ExtractChunksWebpackPlugin()
   ],
   performance: {
@@ -42,5 +40,6 @@ module.exports = {
     assetFilter(assetFilename) {
       return assetFilename.endsWith('.js');
     }
-  }
+  },
+  mode: process.env.NODE_ENV
 };
