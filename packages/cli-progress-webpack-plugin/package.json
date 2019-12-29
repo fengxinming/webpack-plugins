@@ -1,7 +1,7 @@
 {
-  "name": "archives-webpack-plugin",
+  "name": "cli-progress-webpack-plugin",
   "version": "1.0.0",
-  "description": "代码被编译压缩后归档",
+  "description": "A cli progress bar for Webpack.",
   "keywords": [
     "archive",
     "webpack",
@@ -26,5 +26,12 @@
   },
   "bugs": {
     "url": "https://github.com/fengxinming/webpack-plugins/issues"
+  },
+  "peerDependencies": {
+    "webpack": ">=4"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cli-simple-progress": "^1.0.0-2"
   }
 }

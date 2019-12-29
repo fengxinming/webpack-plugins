@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengxinming/extract-chunks-webpack-plugin.git"
+    "url": "git+https://github.com/fengxinming/webpack-plugins.git"
   },
   "keywords": [
     "webpack",
@@ -18,9 +18,9 @@
   "author": "Jesse Feng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fengxinming/extract-chunks-webpack-plugin/issues"
+    "url": "https://github.com/fengxinming/webpack-plugins/issues"
   },
-  "homepage": "https://github.com/fengxinming/extract-chunks-webpack-plugin#readme",
+  "homepage": "https://github.com/fengxinming/webpack-plugins#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
