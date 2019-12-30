@@ -1,6 +1,6 @@
 {
   "name": "archives-webpack-plugin",
-  "version": "1.0.0",
+  "private": true,
   "description": "代码被编译压缩后归档",
   "keywords": [
     "archive",

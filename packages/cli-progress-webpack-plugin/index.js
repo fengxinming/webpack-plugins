@@ -77,7 +77,7 @@ function createDefaultHandler(profile, progressBar, log) {
         startStateTime = Date.now();
         break;
       case 1:
-        msg = `${msg}${msg ? ' ' : ''}${Date.now() - startStateTime}ms`;
+        msg = `${msg}${msg ? ' ' : ''}${Date.now() - startStateTime}ms done`;
         break;
     }
     progressBar.ratio(percentage, { msg: `${msg} ${moduleProgress || ''} ${activeModules || ''}` });
