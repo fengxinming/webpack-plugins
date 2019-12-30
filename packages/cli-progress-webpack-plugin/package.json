@@ -1,6 +1,6 @@
 {
   "name": "cli-progress-webpack-plugin",
-  "version": "1.0.0-1",
+  "version": "1.0.0-2",
   "description": "A cli progress bar for Webpack.",
   "keywords": [
     "archive",
