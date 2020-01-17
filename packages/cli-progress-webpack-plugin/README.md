@@ -8,13 +8,13 @@ $ npm install cli-progress-webpack-plugin --save-dev
 
 ## Usage
 
-** First, import the plugin into your Webpack configuration file: **
+**First, import the plugin into your Webpack configuration file:**
 
 ```js
 const ProgressPlugin = require('cli-progress-webpack-plugin');
 ```
 
-** Then, instantiate it within the list of plugins: **
+**Then, instantiate it within the list of plugins:**
 
 ```js
 plugins: [

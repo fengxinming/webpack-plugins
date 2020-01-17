@@ -1,11 +1,11 @@
 {
   "name": "cli-progress-webpack-plugin",
-  "version": "1.0.0-2",
+  "version": "1.0.0",
   "description": "A cli progress bar for Webpack.",
   "keywords": [
-    "archive",
     "webpack",
-    "plugin"
+    "plugin",
+    "cli-simple-progress"
   ],
   "author": "Jesse Feng <fxm0016@126.com>",
   "homepage": "https://github.com/fengxinming/webpack-plugins#readme",
@@ -33,6 +33,5 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "cli-simple-progress": "^1.0.0"
-  },
-  "gitHead": "6a62b4470957a2fc6d1747e73e596b5e91886c3a"
+  }
 }
