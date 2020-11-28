@@ -9,7 +9,7 @@
     "examples/*"
   ],
   "changelog": {
-    "repo": "fengxinming/extract-chunks-webpack-plugin",
+    "repo": "fengxinming/webpack-plugins",
     "cacheDir": ".changelog",
     "labels": {
       "PR: Spec Compliance :eyeglasses:": ":eyeglasses: Spec Compliance",
