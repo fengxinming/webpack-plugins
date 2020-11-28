@@ -1,38 +1,29 @@
 {
-  "name": "extract-chunks-webpack-plugin",
-  "version": "4.0.0",
-  "description": "extract chunks as webpack plugin 提取编译后的chunk分支",
-  "main": "index.js",
+  "private": true,
+  "name": "webpack-plugins",
+  "description": "自定义webpack插件集合",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example:wp4": "lerna run --scope webpack4",
+    "clean": "lerna clean --yes && rimraf ./node_modules",
+    "deps": "tyarn install && lerna bootstrap"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fengxinming/extract-chunks-webpack-plugin.git"
-  },
-  "keywords": [
-    "webpack",
-    "chunk",
-    "plugin"
-  ],
   "author": "Jesse Feng",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fengxinming/extract-chunks-webpack-plugin/issues"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   },
-  "homepage": "https://github.com/fengxinming/extract-chunks-webpack-plugin#readme",
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "webpack": "^4.19.1"
-  },
-  "dependencies": {
-    "chalk": "^2.1.0",
-    "lodash": "^4.17.4",
-    "toposort": "^1.0.3"
+    "cz-lerna-changelog": "^2.0.2",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^0.8.3",
+    "rimraf": "^3.0.2"
   }
 }

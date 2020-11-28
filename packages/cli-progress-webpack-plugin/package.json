@@ -1,0 +1,36 @@
+{
+  "name": "cli-progress-webpack-plugin",
+  "version": "1.0.2",
+  "description": "A cli progress bar for Webpack.",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "cli-simple-progress"
+  ],
+  "author": "Jesse Feng <fxm0016@126.com>",
+  "homepage": "https://github.com/fengxinming/webpack-plugins#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/webpack-plugins.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/fengxinming/webpack-plugins/issues"
+  },
+  "peerDependencies": {
+    "webpack": ">=4"
+  },
+  "dependencies": {
+    "cli-simple-progress": "^2.0.0"
+  }
+}

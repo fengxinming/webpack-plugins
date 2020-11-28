@@ -131,13 +131,11 @@ class Plugin {
     // Use the configured public path or build a relative path
     let publicPath = typeof compilation.options.output.publicPath !== 'undefined'
       // If a hard coded public path exists use it
-      ?
-      compilation.mainTemplate.getPublicPath({
+      ? compilation.mainTemplate.getPublicPath({
         hash: compilationHash
       })
       // If no public path was set get a relative url path
-      :
-      path.relative(
+      : path.relative(
         path.resolve(compilation.options.output.path, path.dirname(self.options.filename)), compilation.options.output.path
       ).split(path.sep).join('/');
 

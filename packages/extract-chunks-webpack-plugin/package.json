@@ -1,0 +1,33 @@
+{
+  "name": "extract-chunks-webpack-plugin",
+  "version": "4.0.0",
+  "description": "extract chunks as webpack plugin 提取编译后的chunk分支",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/webpack-plugins.git"
+  },
+  "keywords": [
+    "webpack",
+    "chunk",
+    "plugin"
+  ],
+  "author": "Jesse Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengxinming/webpack-plugins/issues"
+  },
+  "homepage": "https://github.com/fengxinming/webpack-plugins#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "toposort": "^2.0.2"
+  },
+  "peerDependencies": {
+    "webpack": ">=3"
+  },
+  "gitHead": "6a62b4470957a2fc6d1747e73e596b5e91886c3a"
+}
