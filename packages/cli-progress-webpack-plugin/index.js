@@ -45,9 +45,9 @@ class CliProgressWebpackPlugin extends ProgressPlugin {
       progressBar.on('complete', function () {
         if (logger.length) {
 
-          const logLevel = LogLevels[profileLevel] || 3;
+          const logLevelValue = LogLevels[profileLevel] || 3;
           logger.forEach(function ([level, message]) {
-            if (LogLevels[level] >= logLevel) {
+            if (LogLevels[level] >= logLevelValue) {
               console.log(colorLevels[level](`webpack.Progress [${level}] ${message}`));
             }
           });

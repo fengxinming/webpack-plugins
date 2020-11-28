@@ -4,7 +4,8 @@
   "description": "自定义webpack插件集合",
   "scripts": {
     "example:wp4": "lerna run --scope webpack4",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "lerna clean --yes && rimraf ./node_modules",
+    "deps": "tyarn install && lerna bootstrap"
   },
   "author": "Jesse Feng",
   "license": "MIT",
@@ -21,7 +22,8 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "lerna": "^3.19.0",
-    "lerna-changelog": "^0.8.3"
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^0.8.3",
+    "rimraf": "^3.0.2"
   }
 }
